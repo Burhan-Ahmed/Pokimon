@@ -26,6 +26,11 @@ Remember 3 keywords while working with useContext
 * .Provider
 + useContext
 6. Consider a Slice in redux as a Feature
+## NODE
+
+1. use http along with built in createServer feature to create a server for http requests and responds.
+2. Once the Server is created you can Either respond something or request something.(Mostly it is a res or response)
+3. A port is also required which is dedicated to that specific Server
 
 ### This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

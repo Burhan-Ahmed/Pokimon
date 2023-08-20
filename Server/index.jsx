@@ -1,6 +1,9 @@
-const userData = require("src/MOCK_DATA.json");
 const http = require('http');
+const userData = require("./src/MOCK_DATA.json");
 
-const server = http.createServer((req, res) => {
-    alert("hello")
+
+const myserver = http.createServer((req, res) => {
+    res.end("hello")
 });
+
+myserver.listen(8000)
