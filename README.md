@@ -14,6 +14,10 @@ React + Vite
 
 ## Use the Following Command to run the project on VS code
 `npm run dev`
+## Use the Following Command to run the Server
+`npm start`
+Make sure that package.json file has 
+`"start": "node your_node_file"`
 
 ## Points to Ponder
 1. if else does not exit in jsx, thus use ternary operator because jsx is not a programming language but a syntax extension for xml
@@ -31,7 +35,7 @@ Remember 3 keywords while working with useContext
 1. use http along with built in createServer feature to create a server for http requests and responds.
 2. Once the Server is created you can Either respond something or request something.(Mostly it is a res or response)
 3. A port is also required which is dedicated to that specific Server
-
+4. Port is a Path for the flow of your traffic
 ### This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
