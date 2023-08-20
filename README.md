@@ -1,5 +1,5 @@
 # Pokimon Game App
-React+Node.Js Project, just for Practice
+React+Node.Js Project along with Lottie for Animaiton, just for Practice
 ## Tool
 VS Code
 ## Languages
