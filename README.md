@@ -15,9 +15,10 @@ React + Vite
 ## Use the Following Command to run the project on VS code
 `npm run dev`
 ## Use the Following Command to run the Server
-`npm start`
+`npm start` <br>
 Make sure that package.json file has 
 `"start": "node your_node_file"`
+Use `Nodemon` for auto restart your server
 
 ## Points to Ponder
 1. if else does not exit in jsx, thus use ternary operator because jsx is not a programming language but a syntax extension for xml
