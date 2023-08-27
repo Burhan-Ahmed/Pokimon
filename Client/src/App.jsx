@@ -1,5 +1,5 @@
 import Login from './Components/LoginPage'
-import Pokemon from './Components/Pokemon'
+import Pokemon from './Components/Profile/Pokemon';
 import {
   BrowserRouter as Router,
   Routes,
