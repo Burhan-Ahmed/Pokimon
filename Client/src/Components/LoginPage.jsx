@@ -13,11 +13,14 @@ export default function Login() {
         axios.post("http://localhost:8000", { email, password })
             .then((response) => {
                 console.log("DATA SEND");
-                setEmail("");
-                setPassword("");
                 setState(response.data);
+                if (response.data === "Login successful") {
+                    window.location.href = '/homeApp';
+                }
             })
             .catch(() => {
+                setEmail("");
+                setPassword("");
                 console.log("DATA NOT SEND");
             })
 

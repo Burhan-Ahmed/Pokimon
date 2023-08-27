@@ -1,12 +1,21 @@
 import Login from './Components/LoginPage'
 import Pokemon from './Components/Pokemon'
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Login />
-      <Pokemon />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/homeApp" element={<Pokemon />} />
+        </Routes>
+      </Router>
+
     </>
   )
 }
