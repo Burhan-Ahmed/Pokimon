@@ -3,7 +3,11 @@
         "id": 1,
         "first_name": "Burhan",
         "last_name": "Ahmed",
+<<<<<<< HEAD
         "email": "burhan.ahmed@gmail.com",
+=======
+        "email": "burhan.ahmed60090@gmail.com",
+>>>>>>> 375aaaa70b8af6f3e951eeb78958956074382993
         "gender": "Male",
         "password": "pass123"
     },
