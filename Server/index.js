@@ -8,7 +8,7 @@ app.use(cors());   // used when working with middleware
 
 app.post("/", (req, res) => {
     const { email, password } = req.body;
-    const user = Dataset.find((item) => item.first_name === email && item.password === password);
+    const user = Dataset.find((item) => item.email === email && item.password === password);
     user ? res.send("Login successful") : res.send("Login Fail");
 })
 
