@@ -1,10 +1,13 @@
 import Login from './Components/LoginPage'
+import Pokemon from './Components/Pokemon'
+
 
 function App() {
   return (
-    <div>
+    <>
       <Login />
-    </div>
+      {/* <Pokemon /> */}
+    </>
   )
 }
 

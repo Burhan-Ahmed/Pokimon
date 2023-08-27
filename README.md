@@ -8,6 +8,7 @@ VS Code
 + Tailwind
 - React
 * Node
++ Express
 
 ## Project was Created Via
 React + Vite
@@ -36,8 +37,14 @@ Remember 3 keywords while working with useContext
 1. use http along with built in createServer feature to create a server for http requests and responds.
 2. Once the Server is created you can Either respond something or request something.(Mostly it is a res or response)
 3. A port is also required which is dedicated to that specific Server
-4. Port is a Path for the flow of your traffic
-5. 
+4. Port is a Path for the flow of your traffic.
+5. Async and await can help to pause the execution process. 
+Async comes with the intended function while await comes with the fetch request.
+6. You can not use throw in .then block
+7. Server and Client run on different ports
+8. Axios and fetch serves the same purpose of getting API but axios is more advance and async by nature.
+9. Middleware is like a third party between Server and Client. There can be multiple Middleware with each having dedicated task. Basically it can do processing on data before the client could access the Server. Like checking if the client is not a Hacker.
+10. Use of next() function is nessary in custom middleware whereas, cors is not a custom middleware
 ### This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
