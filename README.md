@@ -1,5 +1,5 @@
 # Pokimon Game App
-React+Node.Js Project along with Lottie for Animaiton, just for Practice
+React+Node.Js Project, just for Practice
 ## Tool
 VS Code
 ## Languages
@@ -9,6 +9,7 @@ VS Code
 - React
 * Node
 + Express
+- Material UI
 
 ## Project was Created Via
 React + Vite

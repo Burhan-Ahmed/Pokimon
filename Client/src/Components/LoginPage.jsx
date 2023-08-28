@@ -7,10 +7,10 @@ export default function Login() {
     const [password, setPassword] = useState("");
     const [state, setState] = useState("");
 
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
         e.preventDefault();
 
-        axios.post("http://localhost:8000", { email, password })
+        await axios.post("http://localhost:8000", { email, password })
             .then((response) => {
                 console.log("DATA SEND");
                 setState(response.data);
@@ -41,13 +41,8 @@ export default function Login() {
                     Welcome to Pokédex
                 </p>
                 <form onSubmit={handleSubmit} className="flex flex-col space-y-2" action="#" method="get">
-<<<<<<< HEAD
-                    <input value={email} className="py-2 ps-5 rounded focus:outline-none" onChange={(e) => setEmail(e.target.value)} placeholder="Enter Email" type="text" required />
-                    <input value={password} className="py-2 ps-5 rounded focus:outline-none" onChange={(e) => setPassword(e.target.value)} placeholder="Enter your Password" type="password" required />
-=======
                     <input value={email} className="py-2 ps-3 rounded focus:outline-none" onChange={(e) => setEmail(e.target.value)} placeholder="Enter Email" type="text" required />
                     <input value={password} className="py-2 ps-3 rounded focus:outline-none" onChange={(e) => setPassword(e.target.value)} placeholder="Enter your Password" type="password" required />
->>>>>>> 375aaaa70b8af6f3e951eeb78958956074382993
                     <button type="submit" className="py-1 px-3 hover:text-white hover:bg-black ease-in-out border border-black rounded">
                         Login
                     </button>
