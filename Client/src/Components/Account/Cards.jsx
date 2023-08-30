@@ -16,6 +16,7 @@ export default function PokiCard({ PokiData, onCardClick, tagline }) {
                                 </Typography>
                                 <Typography variant="subtitle1" color="text.secondary" component="div">
                                     {item.name}
+                                    {item.name}
                                     {console.log(tagline.map(cc =>
                                         `https://pokeapi.co/api/v2/pokemon-species/${cc.name}`
                                     ))}
