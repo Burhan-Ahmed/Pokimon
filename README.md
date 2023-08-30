@@ -11,6 +11,9 @@ VS Code
 + Express
 - Material UI
 
+## Friendly Advice
+Material UI is not beginner friendly
+
 ## Project was Created Via
 React + Vite
 
