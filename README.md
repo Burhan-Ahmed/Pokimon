@@ -1,5 +1,5 @@
 # Pokimon Game App
-React+Node.Js Project along with Lottie for Animaiton, just for Practice <br>
+React+Node.Js Project, just for Practice <br>
 Landing Page of Website![Pokimon](/Client/src/assets/Pokimon.PNG)
 
 ## Tool
