@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios"; // Import Axios
 
-
 export default function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -29,9 +28,8 @@ export default function Login() {
 
     return (
         <div className="mx-auto my-64 w-6/12 h-5/6 rounded-lg flex justify-center shadow-2xl bg-slate-300">
-
             <div >
-                <img className="rounded-s-lg" src="src\assets\ezgif.com-resize.gif" alt="Animated GIF" />
+                <img className="w-max rounded-s-lg" src="src\assets\ezgif.com-resize.gif" alt="Animated GIF" />
             </div>
             <div className="px-28 p-24 text-center">
                 <h1 className="mb-5 font-semibold text-5xl">
