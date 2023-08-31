@@ -1,19 +1,26 @@
-
+import '/src/indexStyles.css'
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function Navigation() {
 
     return (
-        <div className="flex flex-row justify-end text-3xl border border-black">
-            <nav>
-                <ul>
+        <div className="text-3xl font-semibold border text-slate-400">
+            <nav className="flex justify-end">
+                <ul className="flex space-x-20 py-8 me-28">
                     <li>
-                        Collection
+                        <Link to="/homeApp">
+                            Collection
+                        </Link>
                     </li>
                     <li>
-                        Profile
+                        <Link to="/profile">
+                            Profile
+                        </Link>
                     </li>
                     <li>
-                        Logout
+                        <Link to="/">
+                            Logout
+                        </Link>
                     </li>
                 </ul>
             </nav>

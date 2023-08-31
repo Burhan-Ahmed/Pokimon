@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 0.5fr));
+  grid-gap: 1rem;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+img {
+  width: 20vw;
+}
+
+li:hover {
+  cursor: pointer;
+  filter: none;
+}
+
+li {
+  cursor: pointer;
+  filter: blur(5px);
+}
