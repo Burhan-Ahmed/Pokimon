@@ -1,6 +1,6 @@
 # Pokimon Game App
 React+Node.Js Project along with Lottie for Animaiton, just for Practice <br>
-Landing Page of Website![Pokimon](https://github.com/Burhan-Ahmed/Pokimon-App/Client/src/assets/Pokimon.PNG)
+Landing Page of Website![Pokimon](/Client/src/assets/Pokimon.PNG)
 
 ## Tool
 VS Code
