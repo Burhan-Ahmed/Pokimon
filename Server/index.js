@@ -11,5 +11,8 @@ app.post("/", (req, res) => {
     const user = Dataset.find((item) => item.email === email && item.password === password);
     user ? res.send("Login successful") : res.send("Login Fail");
 })
+app.get("/profile", (req, res) => {
+    return res.send(Dataset);
+})
 
 app.listen(8000, () => console.log("Server is running on port"));

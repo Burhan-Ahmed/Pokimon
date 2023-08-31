@@ -67,7 +67,6 @@ export default function Pokemon() {
                         </button>
                     </div>
                 </div>
-
             </div >
         </>
     );
