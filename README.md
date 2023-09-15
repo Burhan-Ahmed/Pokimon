@@ -20,6 +20,7 @@ React + Vite
 `npm run dev`
 ## Use the Following Command to run the Server
 `npm start` <br>
+`nodemon index` <br>
 Make sure that package.json file has <br>
 `"start": "node your_node_file"`<br>
 Use `Nodemon` for auto restart your server <br>
