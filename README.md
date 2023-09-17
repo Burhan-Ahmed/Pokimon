@@ -15,7 +15,7 @@ VS Code
 
 ## Project was Created Via
 React + Vite
-
+`npm create vite@latest`
 ## Use the Following Command to run the project on VS code
 `npm run dev`
 ## Use the Following Command to run the Server
